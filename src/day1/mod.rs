@@ -30,7 +30,6 @@ pub fn part2(input: &str) -> usize {
             current += line.parse::<usize>().unwrap();
         }
     }
-    println!("{max:?}");
     max.into_iter().sum()
 }
 
